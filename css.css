@@ -1,0 +1,87 @@
+
+body{
+    background-color: rgb(80, 86, 171);
+}
+
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contenedor{
+    background-image: url(../image/logoempresa.jpg);
+    background-position: center;
+
+    background-image: url(../image/domotica.jpg);
+}
+
+.titulo{
+    font-family:'fantasyLucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.titulo h1{
+    font-family:cursive;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.titulo p{
+    font-family:cursive;
+    font-size: 13px;
+}
+
+.Navegacion{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(69, 110, 186);
+    padding:  0 15px;
+    text-align: center;
+
+
+}
+
+
+@media (min-width:560px) {
+    .Navegacion {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
+}
+
+.Navegacion a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition:background-color 1s, color 1s;
+    padding: 15px 20px;
+    border-radius: 3px;
+
+}
+
+
+.Navegacion a:hover{
+    background-color: #000000;
+    transition: 0.5s;
+    color: aliceblue;
+
+}
+
+.eslogan{
+    text-align: center;
+    color: rgb(143, 176, 255);
+
+}
+
+.parrafo1{
+    text-align: center;
+}
+
